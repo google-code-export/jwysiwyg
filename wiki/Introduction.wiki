@@ -1,4 +1,4 @@
-#jwysiwyg usage and api
+jwysiwyg usage and api
 
 = Introduction =
 
