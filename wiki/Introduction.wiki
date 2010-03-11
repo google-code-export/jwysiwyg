@@ -128,11 +128,12 @@ If you want to manipulate the jwysiwyg textarea content you can use the next met
 ===Insert an image===
 
 Insert an image on text indicator 
-
+{{{
 $('#wysiwyg').wysiwyg('insertImage', 'http://domain.com/image.png');
-
+}}}
 ===Insert a link===
 
 Insert a link over selected text
-
+{{{
 $('#wysiwyg').wysiwyg('createLink', 'http://google.com/');
+}}}
