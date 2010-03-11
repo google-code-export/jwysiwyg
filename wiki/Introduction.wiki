@@ -111,4 +111,28 @@ You can use the next controls:
 
 =jwysiwyg access api=
 
-You can acces and modify the jwysiwyg texarea content through next api
+You can access and modify the jwysiwyg texarea content through next api
+
+==Getting content==
+
+You can get the textarea content just using .val() method from jquery
+
+{{{
+   $('#wysiwyg').val();
+}}}
+
+==Content manipulation==
+
+If you want to manipulate the jwysiwyg textarea content you can use the next methods
+
+===Insert an image===
+
+Insert an image on text indicator 
+
+$('#wysiwyg').wysiwyg('insertImage', 'http://domain.com/image.png');
+
+===Insert a link===
+
+Insert a link over selected text
+
+$('#wysiwyg').wysiwyg('createLink', 'http://google.com/');
